@@ -1,0 +1,17 @@
+.rating-wrapper {
+    margin: 5px 0;
+}
+
+.rating-wrapper .rating {
+    color: var(--white-color);
+    background-color: #8A33FD;
+    padding: 0 4px;
+    border-radius: 7px;
+    margin-left: 0px;
+}
+
+.rating-wrapper span {
+    color: var(--info-color);
+    margin-left: 10px;
+    font-weight: 600;
+}

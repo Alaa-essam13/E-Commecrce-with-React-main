@@ -1,0 +1,26 @@
+
+.wrapperStyles{
+    margin: 50px;
+}
+
+.titleStyles{
+    color: var(--primary-color),
+}
+
+.titleStyles{
+    font-size: 40px;
+    position: relative;
+    display: inline;
+}
+
+.titleStyles::after{
+    /* margin-right: 9px;  */
+    content: ' ';
+    width: 5px;
+    height: 45px;
+    display: block;
+    background-color: blueviolet;
+    position: absolute;
+    left: -14px;
+    top: 8%;
+}
